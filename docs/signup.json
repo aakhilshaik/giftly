@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "email": "test@gmail.com",
+    "signup_type": "shopper",
+    "timestamp": "2026-09-07T07:19:03.197Z"
+  }
+]
