@@ -10,7 +10,7 @@
   :root{
     --ink:#1F2E24;
     --ink-deep:#15201A;
-    --parchment:F5F5F2;
+    --parchment:#F5F5F2;
     --gold:#C9A24B;
     --evergreen:#2E4A3D;
     --red:#B5121B;
@@ -154,6 +154,7 @@
     color:inherit;
   }
   .path-card.shopper h2{color:var(--red);}
+  .path-card.maker h2{color:var(--parchment);}
   .path-card p{
     font-size:15.5px;line-height:1.65;
     margin:0;
@@ -162,7 +163,8 @@
   .path-card.maker p{color:rgba(247,239,228,0.78);}
 
   form.signup{
-    display:flex;gap:10px;margin-top:6px;flex-wrap:wrap;
+    display:flex;gap:10px;margin-top:auto;flex-wrap:wrap;
+    padding-top:6px;
   }
   form.signup input[type="email"]{
     flex:1;min-width:180px;
@@ -276,7 +278,7 @@
     <div class="brand">
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
         <path d="M6 4L14 4L22 12L14 20L6 12Z" fill="#2E4A3D"/>
-        <circle cx="9.5" cy="7.5" r="2" fill="#F5F5F2"/>
+        <circle cx="9.5" cy="7.5" r="2" fill="#F7EFE4"/>
         <path d="M16 12.5C16.6 11.3 18.2 11.5 18.4 12.7C18.6 13.9 16.9 15.1 16 15.6C15.1 15.1 13.4 13.9 13.6 12.7C13.8 11.5 15.4 11.3 16 12.5Z" fill="#B5121B"/>
       </svg>
       Giftly
@@ -292,7 +294,7 @@
       <svg width="120" height="150" viewBox="0 0 120 150" fill="none">
         <line x1="60" y1="0" x2="60" y2="34" stroke="#2E4A3D" stroke-width="1.5" stroke-dasharray="2 4"/>
         <g transform="translate(20,34)">
-          <path d="M0 20 L40 0 L80 20 L80 90 Q80 96 74 96 L6 96 Q0 96 0 90 Z" fill="#F5F5F2" stroke="#2E4A3D" stroke-width="1.5"/>
+          <path d="M0 20 L40 0 L80 20 L80 90 Q80 96 74 96 L6 96 Q0 96 0 90 Z" fill="#FAFAF7" stroke="#2E4A3D" stroke-width="1.5"/>
           <circle cx="40" cy="20" r="6" fill="#2E4A3D"/>
           <path d="M14 96 L14 30 M66 96 L66 30" stroke="#B5121B" stroke-width="4" stroke-linecap="round"/>
         </g>
