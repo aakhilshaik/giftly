@@ -3,5 +3,10 @@
     "email": "test@gmail.com",
     "signup_type": "shopper",
     "timestamp": "2026-09-07T07:19:03.197Z"
+  },
+  {
+    "email": "adflsajk@gmail.com",
+    "signup_type": "maker",
+    "timestamp": "2026-09-07T07:19:10.614Z"
   }
 ]
